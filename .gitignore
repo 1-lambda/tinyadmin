@@ -1,0 +1,48 @@
+# Ignore Visual Studio files
+*.suo
+*.user
+*.userprefs
+*.vscode
+*.vs
+/.vscode
+/.vs
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+
+# Ignore DLL files and executables
+*.dll
+*.exe
+
+# Ignore user-specific files
+*.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore any sensitive or environment-specific files
+appsettings.json
+appsettings.Development.json
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore ReSharper files
+_ReSharper.*/
+
+# Ignore Microsoft Visual Studio temporary files
+*.user
+
+# Ignore build results, debug output, and release output
+[Dd]ebug/
+[Rr]elease/
+
+# Ignore .NET Core tooling directories
+.dotnet/
